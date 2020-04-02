@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3432864-fc2a-47a5-8d9d-fb9f05909fee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programs/first.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs/Asterisks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs/Calvin Shin Memory.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs/MyFirstProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +54,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="698" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585793951080">
+    <state x="216" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585808142757">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="698" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.959@0.23.1680.959" timestamp="1585793951080" />
-    <state x="327" y="85" key="SettingsEditor" timestamp="1585794847422">
+    <state x="216" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.959@0.23.1680.959" timestamp="1585808142757" />
+    <state x="698" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585800677985">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="327" y="85" key="SettingsEditor/0.23.1680.959@0.23.1680.959" timestamp="1585794847422" />
+    <state x="698" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.959@0.23.1680.959" timestamp="1585800677985" />
+    <state x="327" y="85" key="SettingsEditor" timestamp="1585800738795">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="327" y="85" key="SettingsEditor/0.23.1680.959@0.23.1680.959" timestamp="1585800738795" />
     <state x="373" y="175" key="new project wizard" timestamp="1585793535543">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state x="373" y="175" key="new project wizard/0.23.1680.959@0.23.1680.959" timestamp="1585793535543" />
+    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1585808097679">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1680.959@0.23.1680.959" timestamp="1585808097679" />
   </component>
 </project>

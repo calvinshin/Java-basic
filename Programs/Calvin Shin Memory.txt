@@ -1,0 +1,116 @@
+Summary below:
+1. Took an attempt at understanding the code (15 minutes)
+2. Copied from the assignment with peeking (9 minutes)
+-- importance of semicolons for Java
+3. Tried from memory, peeking twice (7 minutes)
+-- missed 1 semicolon, did not invoke System.out.println() correctly (missed parenthesis), did import instead of public class void main
+4. Tried from memory, peeking once (7 minutes)
+-- missed System being capitalized in new Scanner(System.in);
+-- missed input.next().charAt(0)'s parenthesis after next
+5. Tried from memory (7 minutes)
+-- no errors
+
+
+import java.util.Scanner
+
+public class Asterisks {
+    public class void main(String[] args) {
+        int count;
+        char GoAgain = ('y');
+        Scanner input = new Scanner(System.in)
+
+        while (GoAgain != 'n') {
+            System.out.print("How many asterisks?")
+            count = input.nextInt();
+
+            for(int i = 0; i < count; i++) {
+                System.out.print('*')
+            }
+            System.out.println();
+            System.out.print("Again? y/n");
+            GoAgain = input.next().charAt(0);
+        }
+    }
+
+}
+
+// First attempt above; took about 7 minutes with a lot of peeking
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+
+public class Asterisks {
+    import static void main(String[] args) {
+        int count;
+        char GoAgain = 'y';
+        Scanner input = new Scanner(system.in)
+
+        while(GoAgain != 'n') {
+            System.out.print("How many asterisks?");
+            count = input.nextInt();
+
+            for(int i = 0; i < count; i++) {
+                System.out.print("*");
+                System.out.println;
+                System.out.print("Again? Enter y/n");
+                GoAgain = input.next().charAt(0);
+            }
+        }
+    }
+}
+
+
+
+
+import java.util.Scanner;
+
+public class Asterisks {
+    public static void main(String[] args) {
+        int count;
+        char GoAgain = 'y';
+        Scanner input = new Scanner(system.in);
+
+        while(GoAgain != 'n') {
+            System.out.print("How many asterisks?");
+            count = input.nextInt();
+
+            for(int i = 0; i < count; i++) {
+                System.out.print("*");
+            }
+            System.out.println();
+            System.out.print("Would you like to do this again? y/n");
+            GoAgain = input.next.charAt(0);
+        }
+    }
+}
+
+
+
+
+import java.util.Scanner;
+
+public class Asterisks {
+    public static void main(String[] args) {
+        int count = 0;
+        char GoAgain = 'y';
+        Scanner input = new Scanner(System.in);
+
+        while(GoAgain != 'n') {
+            System.out.print("How many asterisks?");
+            count = input.nextInt();
+
+            for(int i = 0; i < count; i++) {
+                System.out.print("*");
+            }
+            System.out.println();
+            System.out.print("Would you like to do this again");
+            GoAgain = input.next().charAt(0);
+        }
+    }
+}
