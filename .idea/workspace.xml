@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3432864-fc2a-47a5-8d9d-fb9f05909fee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programs/Asterisks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs/Calvin Shin Memory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs/SoccerTeams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programs/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs/MyFirstProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
