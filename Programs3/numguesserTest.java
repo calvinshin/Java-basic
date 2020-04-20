@@ -3,7 +3,7 @@ import java.util.Random;
 public class numguesserTest {
 
     public static void main(String[] args) {
-        final int GAME_COUNT = 10;
+        final int GAME_COUNT = 10000;
         final int MIN = 1;
         final int MAX = 100;
         Random random = new Random();

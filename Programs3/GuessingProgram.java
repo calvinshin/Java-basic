@@ -7,44 +7,61 @@ public class GuessingProgram {
         int lowerLimit = 1;
         int upperLimit = 100;
         NumberGuesser guesser = new NumberGuesser(lowerLimit, upperLimit);
-        boolean playAgain;
-        char response;
-
-        newGame();
+        newGame(guesser);
     }
 
-    public static void newGame() {
-        playAgain = true;
-        System.out.println("Think of a number beween " + lowerLimit + " and " + upperLimit + ". ");
+    public static void newGame(NumberGuesser game) {
+        boolean playAgain = true;
+        char response;
+        int numberOfGuesses = 1;
+        System.out.println("Think of a number beween " + game.getGameLowerLimit() + " and " + game.getGameUpperLimit() + ". ");
 
         while(playAgain == true) {
-            System.out.print("Is the number " + guesser.getCurrentGuess() + "? (h/l/c): ");
-            response = getUserResponseToGuess();
-
-
-            playAgain = false;
+            System.out.print("Is the number " + game.getCurrentGuess() + "? Select (h)igher, (l)ower, c(orrect): ");
+            response = guessValidation();
+            switch(response) {
+                case 'h':
+                    game.higher();
+                    numberOfGuesses += 1;
+                    break;
+                case 'l':
+                    game.lower();
+                    numberOfGuesses += 1;
+                    break;
+                case 'c':
+                    System.out.println("Great! That took " + numberOfGuesses + " guesses.");
+                    System.out.print("Do you want to play again? Select (y)es or (n)o: ");
+                    char replay = playAgainValidation();
+                    if(replay == 'y') {
+                        game.reset();
+                        System.out.println("Think of a number beween " + game.getGameLowerLimit() + " and " + game.getGameUpperLimit() + ". ");
+                        numberOfGuesses = 1;
+                        break;
+                    }
+                    else {
+                        playAgain = false;
+                        System.out.println("Thanks for playing!");
+                        break;
+                    }
+            }
         }
-//        switch(response) {
-//            case 'h':
-//                lowerLimit = averageValue;
-//                numberOfGuesses += 1;
-//                break;
-//            case 'l':
-//                upperLimit = averageValue;
-//                numberOfGuesses += 1;
-//                break;
-//            case 'c':
-//                System.out.println("Great! That took " + numberOfGuesses + " guesses.");
-//                gameActive = false;
-//                break;
-//        }
+
+
     }
 
-    public static char getUserResponseToGuess() {
+    public static char guessValidation() {
 //        converts the value entered into a lowercase value.
         char response = Character.toLowerCase(input.next().charAt(0));
         while(!(response == 'h' || response == 'l' || response == 'c')) {
-            System.out.println("That is not a valid entry. Please type h, l, or c.");
+            System.out.print("That is not a valid entry. Please type h, l, or c: ");
+            response = Character.toLowerCase(input.next().charAt(0));
+        }
+        return response;
+    }
+    public static char playAgainValidation() {
+        char response = Character.toLowerCase(input.next().charAt(0));
+        while(!(response == 'y' || response == 'n')) {
+            System.out.print("That is not a valid entry. Please type y or n: ");
             response = Character.toLowerCase(input.next().charAt(0));
         }
         return response;
