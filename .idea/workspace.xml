@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3432864-fc2a-47a5-8d9d-fb9f05909fee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programs3/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programs1/Nested2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs1/Nested2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programs1/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs1/Speed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programs1/TriangleAsterisks.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs1/TriangleAsterisks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs1/Asterisks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs1/MyFirstProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs1/Nested2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs1/Sentinel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs1/SoccerTeams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs1/Speed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs1/TriangleAsterisks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs2/NumberGuesser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs2/PokerHands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs2/TestAvgAndGrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs2/returningValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs2/salesData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs2/stringsWithXs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs2/subjectLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/CircleTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/GuessingProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/GuessingProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs3/GuessingProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/NumberGuesser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/NumberGuesser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs3/NumberGuesser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/TempClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/Temperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/numguesserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/numguesserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs3/numguesserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs3/oldGuesser.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +102,9 @@
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state x="373" y="175" key="new project wizard/0.23.1680.959@0.23.1680.959" timestamp="1585793535543" />
-    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1586719359147">
+    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1587349119884">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1680.959@0.23.1680.959" timestamp="1586719359147" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Programs1/Asterisks.class</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1680.959@0.23.1680.959" timestamp="1587349119884" />
   </component>
 </project>
