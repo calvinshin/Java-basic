@@ -1,2 +1,2 @@
 # Java-basic
-Simple one-file programs to execute simple functions
+Simple one/two-file programs to execute simple functions
