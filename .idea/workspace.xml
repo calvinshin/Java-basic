@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3432864-fc2a-47a5-8d9d-fb9f05909fee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programs5/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs5/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs5/CircleTester.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs5/CircleTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs5/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs5/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs5/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs5/CircleTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs5/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs5/Telephone.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
