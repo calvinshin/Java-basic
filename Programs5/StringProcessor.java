@@ -96,13 +96,14 @@ public class StringProcessor {
     }
 
     public String getNoDigitWordString() {
-        String[] digitWordArray = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
-        String[] digitArray = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
-        String newString = new String(base);
+        String[] digitWordArray = {" zero ", " one ", " two ", " three ", " four ", " five ", " six ", " seven ",  " eight ", " nine "};
+        String[] digitArray = {" 0 ", " 1 ", " 2 ", " 3 ", " 4 ", " 5 ", " 6 ", " 7 ", " 8 ", " 9 "};
+        String newString = new String(" " + base + " ");
 
         for(int i = 0; i < 10; i++) {
             newString = newString.replaceAll("(?i)" + digitWordArray[i], digitArray[i]);
         }
+        newString = newString.trim();
 
         return newString;
     }
