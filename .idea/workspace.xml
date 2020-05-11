@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3432864-fc2a-47a5-8d9d-fb9f05909fee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/new/GridItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/new/GridWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/new/GridWriterProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/new/MyCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/new/MyRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/new/MySquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programs6/new/info.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programs5/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programs5/CircleTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programs5/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programs5/Telephone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs5/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs5/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs5/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programs5/CheckingAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Programs5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Programs6/new" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,6 +51,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Programs6/new" />
+      <recent name="$PROJECT_DIR$/Programs6" />
       <recent name="$PROJECT_DIR$/Programs5" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -96,13 +105,13 @@
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state x="527" y="144" width="673" height="708" key="find.popup/0.23.1680.959@0.23.1680.959" timestamp="1587614520685" />
-    <state x="373" y="175" key="new project wizard" timestamp="1585793535543">
+    <state x="373" y="175" key="new project wizard" timestamp="1588818441507">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="373" y="175" key="new project wizard/0.23.1680.959@0.23.1680.959" timestamp="1585793535543" />
-    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1588208107926">
+    <state x="373" y="175" key="new project wizard/0.23.1680.959@0.23.1680.959" timestamp="1588818441507" />
+    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1589079677666">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1680.959@0.23.1680.959" timestamp="1588208107926" />
+    <state x="851" y="262" width="670" height="676" key="search.everywhere.popup/0.23.1680.959@0.23.1680.959" timestamp="1589079677666" />
   </component>
 </project>

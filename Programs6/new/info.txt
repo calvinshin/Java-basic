@@ -1,0 +1,25 @@
+1. There are several different forms of method overloading.
+From GridItem.java, two methods are polymorphed: containsPoint and getArea.
+These two methods are polymorphed in two classes, MyCircle and MyRectangle.
+The methods are re-created to better suit these classes.
+
+2. x and y are in-scope for MyCircle because x and y are protected members of GridItem.
+MyCircle is a subclass of GridItem, so when an object is created from the MyCircle class, the variables are defined.
+Additionally, the constructor for MyCircle also uses these protected members of GridItem.
+
+3. The containsPoint is a polymorphed method in which MyCircle and MyRectangle override the GridItem version of containsPoint.
+As such, when GridWriterProgram calls GridWriter.display on the six objects in GridWriter.GridItem, the MyRectangle and MyCircle methods are called.
+
+4. If x and y are declared as private, then the subclasses do not have access to these members.
+This will cause MyCircle to not have access to x and y, even though the constructor and several methods call on x and y.
+This similarly causes issues for MyRectangle.
+The specific error that is returned is: Exception in thread "main" java.lang.IllegalAccessError: class MyCircle tried to access private field GridItem.x (MyCircle and GridItem are in unnamed module of loader 'app')
+
+5. Abstract methods are primarily used to set an expectation that a method is generated in all subclasses.
+This would be helpful for the two methods overwritten in MyCircle and MyRectangle: containsPoint and getArea.
+This helps read GridItem more cleanly; if this class was read first, a code reader could potentially conclude that all subclasses return an area of 0.
+
+6. An interface could clean up the documentation of these classes.
+There are several different kinds of objects that could be displayed on a 2 dimensional axis: points, lines, and shapes.
+Each of these could be its own interface, allowing for different types of data objects.
+getArea is an example of something that could live within an interface, as the concept of area is limited to shapes (and integrals).
