@@ -1,0 +1,9 @@
+For my assignment I took the Conway Cell and made the following modifications to create MultiStateCell:
+- Changed the logic for how many neighbors meant that a cell would be alive (2-3 to 1-3)
+- Inserted a new state after death that inhibited growth for one round
+-- This is done through a class called SleeperCell that effectively inhibits growth for the next round, changing the behavior of cell propagation.
+When using both of these changes combined, the blinker begins to create a pattern in the middle and expands out infinitely.
+
+To execute the program, run java ConwayMain. The BlinkerCell is currently inside the program, which will affect how MultiStateCell propogates.
+BlinkerCell will switch between being alive and dead in alternating rounds.
+Because this cell has no propgation logic, it simply switches between two states and does not directly influence the cells around it.
