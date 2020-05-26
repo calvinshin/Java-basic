@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3432864-fc2a-47a5-8d9d-fb9f05909fee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programs8/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs8/FlyingCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs8/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs8/Splicer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs8/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programs8/test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +13,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -107,10 +106,10 @@
       <screen x="0" y="23" width="1680" height="959" />
     </state>
     <state x="527" y="144" width="673" height="708" key="find.popup/0.23.1680.959@0.23.1680.959" timestamp="1587614520685" />
-    <state x="373" y="175" key="new project wizard" timestamp="1590027248103">
+    <state x="373" y="175" key="new project wizard" timestamp="1590522331093">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
-    <state x="373" y="175" key="new project wizard/0.23.1680.959@0.23.1680.959" timestamp="1590027248103" />
+    <state x="373" y="175" key="new project wizard/0.23.1680.959@0.23.1680.959" timestamp="1590522331093" />
     <state x="851" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1589767759341">
       <screen x="0" y="23" width="1680" height="959" />
     </state>
